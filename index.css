@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid red;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    padding: 30px 20px 0px 20px;
+    margin-bottom: 5px;
+    font-size: 3em;
+}
+
+h1 ~ p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* contenedor de la imagen */
+#img-div{
+    background-color: #FFF;
+    display: block;
+    margin: 0 15px;
+    padding: 10px;
+}
+/* descripcion de la imagen */
+#img-caption{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 15px;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+/* Titulo de la linea de tiempo */
+#tribute-info{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 30px;
+}
+/* Puntos de la linea de tiempo */
+ul li{
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    font-size: 1.2em;
+}
+cite, blockquote{
+    display: block;
+    max-width: 600px;
+    text-align: left;
+    margin: 30px auto;
+    font-style: italic;
+}
+cite ~ p{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.65em;
+}
